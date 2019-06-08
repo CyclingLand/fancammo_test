@@ -1,14 +1,54 @@
 .view,body,html{
 	height:100%
 }
-.navbar{
-	background-color:rgba(0,0,0,.2)
-}
+	.navbar{
+		background-color:#AE8119
+	}
 .page-footer,.top-nav-collapse{
 	background-color:#1C2331
 }
-@media only screen and (max-width:768px){
-	.navbar{
-		background-color:#1C2331
+
+.intro-block {
+	max-width: 40%;
+	text-align: left;
+}
+@media only screen and (max-width:991px){
+	.intro-block {
+	max-width: 100%		
+}
+	#artiesten {
+		align-content: center !important;
 	}
+}
+.card {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	width: 252px !important;
+	height: 448px !important;
+	border-radius: 10px !important;
+	;
+}
+.card-img-top {
+	border-radius: 10px !important;
+	object-fit: cover;
+	object-position: center;
+	height: 100% !important;
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
 }
