@@ -52,3 +52,23 @@
 .blog .carousel-indicators .active {
 background: #707070;
 }
+.search {
+	max-width: 300px;
+    width: 100%;
+  position: relative;
+  display: flex;
+}
+.searchbar {
+	width: 75%
+}
+.searchbtn {
+	width: 40px;
+  height: 36px;
+  border: 1px solid #ec9314;
+  background: #ec9314;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 24px;
+}

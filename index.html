@@ -79,7 +79,10 @@
             </a>
           </li>
         </ul>
-<gcse:searchbox-only></gcse:searchbox-only>  
+<form class="search" action="/search" method="get">
+<input type="text" class="form-control searchbar" placeholder="Search for projects, articles and more" name="q" id="search" autocomplete="off">
+<button type="submit" class="searchbtn" onclick="location.href='\search?q='+ document.getElementById('search').value"> <i class="fab fa-search"></i></button>
+</form>	 
 
       </div>
 
