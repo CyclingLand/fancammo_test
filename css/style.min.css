@@ -1,5 +1,8 @@
-.view,body,html{
-	height:100%
+body,html{
+	height:100%;
+}
+#intro {
+	min-height: 100% !important;
 }
 	.navbar{
 		background-color:#AE8119
@@ -19,10 +22,12 @@
 	#artiesten {
 		align-content: center !important;
 	}
+	#bestel-nu-btn {
+		align-content: center !important;
+	}
 }
 .card {
-	margin-bottom: 10px;
-	margin-top: 20px;
+	margin: 20px;
 	width: 252px !important;
 	height: 448px !important;
 	border-radius: 10px !important;
@@ -53,13 +58,14 @@
 background: #707070;
 }
 .search {
-	max-width: 300px;
-    width: 100%;
+	width: 500px;
+    max-width: 80%;
   position: relative;
   display: flex;
 }
 .searchbar {
-	width: 75%
+	width: 100%;
+	color: white;
 }
 .searchbtn {
 	width: 40px;
@@ -71,4 +77,10 @@ background: #707070;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 24px;
+}
+.nav-left {
+	padding-left: 30px;
+}
+.nav-right {
+	padding-right: 30px;
 }

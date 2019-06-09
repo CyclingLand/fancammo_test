@@ -32,10 +32,9 @@
 
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-    <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand nav-left" href="#">
     <img src="img/Logo.svg" width="200" alt="Fancammo logo">
   </a>
 
@@ -49,7 +48,29 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
         <!-- Left -->
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.instagram.com/fancammo/" class="nav-link" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+		  <div class="mx-auto order-0">
+			  <!-- Search form -->
+<form class="form-inline md-form form-sm active mt-2" action="/search" method="get">
+          <div class="md-form my-0">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search" name="q" id="search" autocomplete="off">
+            <i class="fas fa-search text-white ml-3 active" aria-hidden="true"></i>
+          </div>
+        </form>	
+			</div>
+        <!-- Right -->
+        <ul class="navbar-nav nav-right">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
@@ -64,43 +85,24 @@
           <li class="nav-item">
             <a class="nav-link" href="goede-doelen.html" target="_blank">Goede doelen</a>
           </li>
-        </ul>
-
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="https://www.instagram.com/fancammo/" class="nav-link" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="https://twitter.com/MDBootstrap" class="nav-link" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        </ul>
-<form class="search" action="/search" method="get">
-<input type="text" class="form-control searchbar" placeholder="Search for projects, articles and more" name="q" id="search" autocomplete="off">
-<button type="submit" class="searchbtn" onclick="location.href='\search?q='+ document.getElementById('search').value"> <i class="fab fa-search"></i></button>
-</form>	 
+        </ul>		  
 
       </div>
 
-    </div>
   </nav>
   <!-- Navbar -->
 
   <!-- Full Page Intro -->
-  <div class="view" style="background-image: url('img/crowd.jpg'); background-repeat: no-repeat; background-size: cover;">
+  <div class="view" id="intro" style="background-image: url('img/crowd.jpg'); background-repeat: no-repeat; background-size: cover;">
 
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
 
       <!-- Content -->
       <div class="text-center white-text mx-5 wow fadeIn">
-        <h1 class="mb-4 intro-block" >
+        <h1 class="mb-4 intro-block h1-responsive" >
           <strong>Verras iemand met een persoonlijke video van zijn en/of haar favoriete artiest</strong>
-		  <br><br><a href="alle-artiesten.html" class="btn btn-outline-white btn-lg hvr-sweep-to-top">Bestel nu!
+		  <br><br><a href="alle-artiesten.html" id="bestel-nu-btn" class="btn btn-outline-white btn-lg hvr-sweep-to-top">Bestel nu!
         </a>
         </h1>
 
@@ -117,14 +119,15 @@
 
   <!--Main layout-->
   <main>
-    <div class="container">
+
 
       <!--Section: Artiesten-->
       <section class="mt-5 wow fadeIn" id="artiesten">
-		  
+		      <div class="container">
 		  <h3 class="h3 text-center mb-5">Ontdek alle artiesten bij Fancammo</h3>
+		  </div>	  
 <center>	  
-
+<div id="slide-artiesten">
             <div class="row">
                 <div class="col-md-12">
                     <div id="artiesten-slide" class="carousel slide" data-ride="carousel">
@@ -134,7 +137,7 @@
                             <div class="carousel-item active">
                                 <div class="row">
 
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-lg-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -153,7 +156,7 @@
 										<!--/.Card-->
 
 									  </div>
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-lg-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -172,7 +175,7 @@
 										<!--/.Card-->
 
 									  </div>
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-lg-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -191,7 +194,7 @@
 										<!--/.Card-->
 
 									  </div>
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-lg-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -217,7 +220,7 @@
 
                             <div class="carousel-item">
                                 <div class="row">
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-lg-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -236,7 +239,7 @@
 										<!--/.Card-->
 
 									  </div>
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-md-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -255,7 +258,7 @@
 										<!--/.Card-->
 
 									  </div>
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-lg-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -274,7 +277,7 @@
 										<!--/.Card-->
 
 									  </div>
-                                      <div class="col-md-3 hvr-bob">
+                                      <div class="col-lg-3 .col-md-5 hvr-bob">
 
 										<!--Card-->
 										<div class="card">
@@ -312,12 +315,16 @@
 							<span class="sr-only">Next</span>
 						  </a>
                 </div>
-            </div>	
-</center>		
+            </div>
+	<a href="alle-artiesten.html" class="btn btn-lg hvr-sweep-to-top">Bekijk alle artiesten
+        </a>
+	</div>
+</center>
+
 <!-- Grid row -->
       </section>
       <!--Section: Artiesten-->
-
+		 <div class="container">
       <hr class="my-5">
 
       <!--Section: Hoe werkt het?-->
