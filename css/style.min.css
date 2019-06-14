@@ -1,16 +1,23 @@
-body,html{
+.view,body,html{
 	height:100%;
 }
 #intro {
 	min-height: 100% !important;
 }
-	.navbar{
-		background-color:#AE8119
-	}
+.navbar {
+	background: #695411;
+}
+ .navbar-inner {
+   background: rgba(0,0,0,0.4);
+} .transparent {
+   background: rgba(0,0,0,0.4);
+}
 .page-footer,.top-nav-collapse{
 	background-color:#1C2331
 }
-
+.navbar-default {
+  box-shadow: none !important;
+}
 .intro-block {
 	max-width: 40%;
 	text-align: left;
@@ -26,6 +33,7 @@ body,html{
 		align-content: center !important;
 	}
 }
+
 .card {
 	margin: 20px;
 	width: 252px !important;
