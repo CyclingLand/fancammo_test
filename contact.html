@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Hoe het werkt | Fancammo</title>
+  <title>Contact | Fancammo</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -91,7 +91,7 @@
   <!-- Navbar -->
 
     <div class="container">
-<h1 class="white-text text-center mb-5 title h1-responsive">Hoe het werkt</h1>
+<h1 class="white-text text-center mb-5 title h1-responsive">Contact</h1>
 
 		</div>
 			
@@ -100,74 +100,40 @@
   <!--Main layout-->
 <center>
 <div class="container">
-     <!--Section: Hoe werkt het?-->
+     <!--Section: contact form-->
       <section>
+<form class="text-center border border-light p-5">
 
- 
+    <!-- Name -->
+    <input type="text" id="Name" class="form-control mb-4" placeholder="Naam">
 
-        <!--Grid row-->
-        <div class="row wow fadeIn">
+    <!-- Email -->
+    <input type="email" id="Email" class="form-control mb-4" placeholder="E-mail">
 
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 px-4">
+    <!-- Subject -->
+    <label>Onderwerp</label>
+    <select class="browser-default custom-select mb-4">
+        <option value="1" selected>Feedback</option>
+        <option value="2">Video niet ontvangen</option>
+        <option value="3">Suggestie</option>
+        <option value="4">Andere vraag</option>
+    </select>
 
-            <!--First row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-search fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Zoek een artiest</h5>
-                <p>Zoek jouw favoriete artiest of influencer in ons <b>grote aanbod</b>. Je kunt direct je bestelling plaatsen voor een video boodschap.</p>
-              </div>
-            </div>
-            <!--/First row-->
+    <!-- Message -->
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Bericht"></textarea>
+    </div>
 
-            <div style="height:30px"></div>
+    <!-- Copy -->
+    <div class="custom-control custom-checkbox mb-4">
+        <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+        <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+    </div>
 
-            <!--Second row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-lock fa-2x blue-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Betaal veilig</h5>
-                <p>Betaal <b>snel en veilig</b> via ons betalingssysteem. Je kunt hiervoor iDeal, PayPal of een creditcard gebruiken.
-                </p>
-              </div>
-            </div>
-            <!--/Second row-->
+    <!-- Send button -->
+    <button class="btn btn-info btn-block" type="submit">Send</button>
 
-            <div style="height:30px"></div>
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-play-circle fa-2x cyan-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Ontvang je video</h5>
-                <p>Zodra je bestelling is geplaatst wordt je verzoek doorgestuurd naar de door jou gekozen artiest of influencer. het kan <b>5 werkdagen</b> duren totdat je jouw video opgestuurd krijgt.</p>
-              </div>
-            </div>
-            <!--/Third row-->
-
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12">
-
-            <p class="h5 text-center mb-4">Bekijk de video</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E1WBhqOVvBg" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/Grid row-->
-
+</form>
       </section>
 </div>		
 </center>

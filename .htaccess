@@ -1,4 +1,3 @@
 Options -Indexes +ExecCGI +Multiviews
 AddHandler cgi-script .cgi .pl
-Redirect 301 /artiest.shtml http://www.fancammo.nl/alle-artiesten.html
-Redirect 301 /index.html http://www.fancammo.nl
+Redirect 301 /artiest.html http://www.fancammo.nl/alle-artiesten.html
