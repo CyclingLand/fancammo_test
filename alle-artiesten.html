@@ -18,14 +18,18 @@
   <link href="css/style.min.css" rel="stylesheet">
   <!--hover.css-->
   <link href="css/hover.css" rel="stylesheet">
-  <style type="text/css">
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
-
-  </style>
+<!--Zoeken-->	
+<script>
+  (function() {
+    var id = 'f20098ec-8f6c-11e9-8348-0242ac130002';
+    var ci_search = document.createElement('script');
+    ci_search.type = 'text/javascript';
+    ci_search.async = true;
+    ci_search.src = 'https://cse.expertrec.com/api/js/ci_common.js?id=' + id;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ci_search, s);
+  })();
+</script>
 </head>
 
 <body>
@@ -62,28 +66,23 @@
         </ul>
 		  <div class="mx-auto order-0">
 			  <!-- Search form -->
-<form class="form-inline md-form form-sm active mt-2" action="/zoeken.html" method="get">
-          <div class="md-form my-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search" name="q" id="search" autocomplete="off">
-            <i class="fas fa-search text-white ml-3 active" aria-hidden="true"></i>
-          </div>
-        </form>	
+<ci-search></ci-search>
 			</div>
         <!-- Right -->
         <ul class="navbar-nav nav-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hoe-het-werkt">Hoe het werkt</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="hoe-het-werkt.html">Hoe het werkt</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="alle-artiesten.html">Alle artiesten
+            <a class="nav-link" href="alle-artiesten">Alle artiesten
               <span class="sr-only">(current)</span>  
 			</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="goede-doelen.html" target="_blank">Goede doelen</a>
+            <a class="nav-link" href="goede-doelen">Goede doelen</a>
           </li>
         </ul>		  
 
@@ -100,7 +99,7 @@
       <section class="mt-5 wow fadeIn" id="artiesten">
 		<div class="container"> 
 		  <h1 class="h1 text-center mb-5">Ontdek alle artiesten bij Fancammo</h1>
-		  <h3 class="h3-responsive text-center mb-5"><small>Heb je je ooit afgevraagd hoe het zou zijn om een persoonlijke video van je persoonlijke held te ontvangen? Of wil je je dierbaren verassen met een unieke video?</small></h3>
+		  <h3 class="h3-responsive text-center mb-5"><small>Heb je je ooit afgevraagd hoe het zou zijn om een persoonlijke video van je persoonlijke held te ontvangen? Of wil je je dierbaren verassen met een unieke video?<br></small><b>Het kan op Fancammo!</b><small><br>Zoek hier jouw favoriete artiest en bestel direct!</small></h3>
 		  </div>
 <center>
 <div class="container-fluid artiesten-vids">
@@ -113,7 +112,7 @@
 		<!--Card image-->
 		<div class="view">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
-			<a href="#">
+			<a href="artiest/afke-granzier.html">
 				<div class="mask rgba-white-slight"></div>
 			</a>
 		</div>
@@ -405,61 +404,31 @@
   <!--Footer-->
   <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
-    <!--Call to action-->
-    <div class="pt-4">
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank"
-        role="button">Download MDB
-        <i class="fas fa-download ml-2"></i>
-      </a>
-      <a class="btn btn-outline-white" href="https://mdbootstrap.com/education/bootstrap/" target="_blank" role="button">Start
-        free tutorial
-        <i class="fas fa-graduation-cap ml-2"></i>
-      </a>
-    </div>
-    <!--/.Call to action-->
 
     <hr class="my-4">
 
     <!-- Social icons -->
     <div class="pb-4">
-      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
-        <i class="fab fa-facebook-f mr-3"></i>
+			
+      <a href="https://www.instagram.com/fancammo/" target="_blank">
+        <i class="fab fa-instagram mr-3"></i>
       </a>
-
-      <a href="https://twitter.com/MDBootstrap" target="_blank">
+		
+      <a href="https://twitter.com/fancammo" target="_blank">
         <i class="fab fa-twitter mr-3"></i>
       </a>
 
-      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+      <a href="https://www.youtube.com/fancammo" target="_blank">
         <i class="fab fa-youtube mr-3"></i>
       </a>
 
-      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-        <i class="fab fa-google-plus-g mr-3"></i>
-      </a>
-
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
-        <i class="fab fa-dribbble mr-3"></i>
-      </a>
-
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
-        <i class="fab fa-pinterest mr-3"></i>
-      </a>
-
-      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
-
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
-        <i class="fab fa-codepen mr-3"></i>
-      </a>
-    </div>
+</div>
     <!-- Social icons -->
 
     <!--Copyright-->
     <div class="footer-copyright py-3">
-      © 2019 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com </a>
+      © 2019 Fancammo <br> 
+      <a href="vorwaarden.html">Algemene voorwaarden</a>
     </div>
     <!--/.Copyright-->
 
