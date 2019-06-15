@@ -1,16 +1,10 @@
 @font-face {
-font-family: 'Quantify Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Quantify Regular'), url('../font/quantify/Quantify.woff') format('woff'),url('../font/quantify/Quantify.ttf')  format('truetype'),;
-}
+    font-family: 'quantifyregular';
+    src: url('../font/quantify/quantify-webfont.woff2') format('woff2'),
+         url('../font/quantify/quantify-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-
-@font-face {
-font-family: 'Quantify Bold';
-font-style: normal;
-font-weight: normal;
-src: local('Quantify Bold'), url('../font/quantify/Quantify Bold.woff') format('woff'),url('../font/quantify/Quantify Bold.ttf')  format('truetype');
 }
 
 .view,body,html{
@@ -37,6 +31,9 @@ src: local('Quantify Bold'), url('../font/quantify/Quantify Bold.woff') format('
 	max-width: 40%;
 	text-align: left;
 }
+#intro-home {
+	padding-top: 200px;
+}
 @media only screen and (max-width:991px){
 	.intro-block {
 	max-width: 100%		
@@ -57,7 +54,13 @@ src: local('Quantify Bold'), url('../font/quantify/Quantify Bold.woff') format('
 	padding-bottom: 100px !important;
 	font-size: 3em !important;
 }
+	#intro-home {
+		padding-top: 60px;
+		width: 100% !important;
+		align-content: center !important;
+	}
 }
+
 .card {
 	margin: 20px;
 	width: 252px !important;
@@ -126,7 +129,7 @@ background: #707070;
 	padding-bottom: 150px;
 	font-size: 4em;
 	font-weight: bolder;
-	font-family:'Quantify Regular';
+	font-family:'quantifyregular';
 }
 
 

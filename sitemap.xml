@@ -9,27 +9,37 @@
 
 <url>
   <loc>http://fancammo.nl/</loc>
-  <lastmod>2019-06-15T12:55:24+00:00</lastmod>
+  <lastmod>2019-06-15T19:42:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://fancammo.nl/hoe-het-werkt.html</loc>
-  <lastmod>2019-06-15T12:55:24+00:00</lastmod>
+  <loc>http://fancammo.nl/hoe-het-werkt</loc>
+  <lastmod>2019-06-15T19:15:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://fancammo.nl/alle-artiesten.html</loc>
-  <lastmod>2019-06-15T12:55:24+00:00</lastmod>
+  <loc>http://fancammo.nl/alle-artiesten</loc>
+  <lastmod>2019-06-15T19:15:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://fancammo.nl/goede-doelen.html</loc>
-  <lastmod>2019-06-15T12:55:24+00:00</lastmod>
+  <loc>http://fancammo.nl/goede-doelen</loc>
+  <lastmod>2019-06-15T19:15:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://fancammo.nl/index.html</loc>
-  <lastmod>2019-06-15T12:55:24+00:00</lastmod>
+  <loc>http://fancammo.nl/artiest/afke-granzier</loc>
+  <lastmod>2019-06-15T19:16:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://fancammo.nl/voorwaarden</loc>
+  <lastmod>2019-06-15T19:15:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://fancammo.nl/index</loc>
+  <lastmod>2019-06-15T19:42:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
