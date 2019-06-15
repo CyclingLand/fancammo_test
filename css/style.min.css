@@ -2,7 +2,7 @@
 font-family: 'Quantify Regular';
 font-style: normal;
 font-weight: normal;
-src: local('Quantify Regular'), url('Quantify.woff') format('woff');
+src: local('Quantify Regular'), url('../font/quantify/Quantify.woff') format('woff'),url('../font/quantify/Quantify.ttf')  format('truetype'),;
 }
 
 
@@ -10,7 +10,7 @@ src: local('Quantify Regular'), url('Quantify.woff') format('woff');
 font-family: 'Quantify Bold';
 font-style: normal;
 font-weight: normal;
-src: local('Quantify Bold'), url('Quantify Bold.woff') format('woff');
+src: local('Quantify Bold'), url('../font/quantify/Quantify Bold.woff') format('woff'),url('../font/quantify/Quantify Bold.ttf')  format('truetype');
 }
 
 .view,body,html{
