@@ -22,7 +22,7 @@
    background: rgba(0,0,0,0.00);
 }
 .page-footer,.top-nav-collapse{
-	background-color:#1C2331
+	background-color:#87411F
 }
 .navbar-default {
   box-shadow: none !important;
@@ -73,6 +73,14 @@
 	object-fit: cover;
 	object-position: center;
 	height: 100% !important;
+}
+.card-big {
+	width: 270px !important;
+	height: 480px !important;
+}
+.card-small {
+	width: 180px !important;
+	height: 320px !important;
 }
 .blog .carousel-indicators {
 	left: 0;
@@ -133,3 +141,7 @@ background: #707070;
 }
 
 
+
+.artist-info {
+	max-width: 400px;
+}
