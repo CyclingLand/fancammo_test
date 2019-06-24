@@ -108,7 +108,7 @@
 		<div class="card card-big">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -116,13 +116,15 @@
 		</div>
 
 		</div>
+			<a href="#" id="bestel-artiest-btn" class="btn btn-outline-white btn-lg hvr-sweep-to-top bestel-artiest">Bestel nu!
+        </a>
 	</center>		
 		<!--/.Card-->
 </div>
 </div><!--col-->
 			
 <div class="col-12 col-xl-8 col-md-6 col-sm-10">
-		 <h1 class="mb-4 intro-block h1-responsive white-text">Afke Granzier<br><small>👊&nbsp;Influencer</small></h1>
+		 <h1 class="mb-4 intro-block h1-responsive white-text">Afke Granzier<br><small>👊&nbsp;Influencer</small><h5 class="white-text subtitle h5-responsive">🕒&nbsp; Verwachtte levertijd <b>6 dagen</b> <br> 💰 &nbsp; Supporter van <b>WNF</b></h5></h1>
 		<p class="artist-info white-text">Heyy, mijn naam is Afke!<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at ipsum justo. In luctus, nulla porta lacinia ultrices, ex risus facilisis nibh, id finibus felis neque sagittis erat. Nam a dui a quam bibendum maximus. In ac ullamcorper velit. Vestibulum consectetur est tellus, ac eleifend mauris molestie eget. Sed efficitur varius enim. Nullam malesuada augue nec sollicitudin maximus.</p>
 		<h3 class="white-text">Video's van Afke Granzier:</h3>
   <div class="artiest-slider">
@@ -132,7 +134,7 @@
 		<div class="card card-small">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -150,7 +152,7 @@
 		<div class="card card-small">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -168,7 +170,7 @@
 		<div class="card card-small">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -186,7 +188,7 @@
 		<div class="card card-small">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -204,7 +206,7 @@
 		<div class="card card-small">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -222,7 +224,7 @@
 		<div class="card card-small">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -240,7 +242,7 @@
 		<div class="card card-small">
 
 		<!--Card image-->
-		<div class="view">
+		<div class="card-image">
 			<img src="https://www.setaswall.com/wp-content/uploads/2018/04/Razer-Phone-Stock-Wallpaper-01-1704x2560.jpg" class="card-img-top">
 			<a href="artiest/afke-granzier">
 				<div class="mask rgba-white-slight"></div>
@@ -259,6 +261,7 @@
       </div>
       <!-- Content -->
 			  </div>
+		
   <!--Footer-->
   <footer class="page-footer text-center font-small mt-4 wow fadeIn">
 
@@ -351,7 +354,49 @@
     // instead of a settings object
   ]  
   });
+}); 
+	 	$(document).ready(function(){
+  $('.meer-artiesten').slick({
+    autoplay:true,
+	autoplaySpeed:3000,
+	speed:600,
+	swipeToSlide:true,
+	infinite:true,
+	slidesToShow:5,
+	slidesToScroll:2,
+	dots:true, 
+	arrows:false,
+	  responsive: [
+    {
+      breakpoint: 1550,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 472,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]  
+  });
 });  
+ 
 	</script>	
   <!-- Initializations -->
   <script type="text/javascript">
