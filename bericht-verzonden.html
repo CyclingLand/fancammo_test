@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Contact | Fancammo</title>
+  <title>Bericht verzonden | Fancammo</title>
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -32,7 +32,7 @@
 </script>
 </head>
 
-<body>
+<body>	
 	<div style="background-image: url('img/crowd_half.jpg'); background-repeat: no-repeat; background-size: cover">
 		<div class="mask rgba-black-light">
   <!-- Navbar -->
@@ -99,40 +99,15 @@
 	</div>
   <!--Main layout-->
 <center>
-<div class="container">
+<div class="container" style="padding-top: 50px;padding-bottom: 50px">
      <!--Section: contact form-->
       <section>
-<form class="text-center border border-light p-5" action="mail.php" method="POST">
-
-    <!-- Name -->
-    <input type="text" id="Name" class="form-control mb-4" placeholder="Naam" name="name">
-
-    <!-- Email -->
-    <input type="email" id="Email" class="form-control mb-4" placeholder="E-mail" name="email">
-
-    <!-- Subject -->
-    <label>Onderwerp</label>
-    <select class="browser-default custom-select mb-4" name="subject">
-        <option value="1" selected>Feedback</option>
-        <option value="2">Video niet ontvangen</option>
-        <option value="3">Suggestie</option>
-        <option value="4">Andere vraag</option>
-    </select>
-
-    <!-- Message -->
-    <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Bericht" name="message"></textarea>
-    </div>
-
-
-    <!-- Send button -->
-    <button class="btn btn-info btn-block" type="submit">Verzenden</button>
-
-</form>
+<i class="fas fa-envelope" style="font-size: 8em"></i>
+<h1>Je bericht is verzonden</h1>
+<p style="font-size: 0.9em;">We proberen zo spoedig mogelijk te reageren.<br>Als dit binnen 5 dagen niet is gebeurt, check dan eerst je spam mapje en probeer daarna opnieuw contact op te nemen.</p>
       </section>
 </div>		
 </center>
-
  
   <!--Footer-->
   <footer class="page-footer text-center font-small mt-4 wow fadeIn">
