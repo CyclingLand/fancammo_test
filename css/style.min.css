@@ -1,3 +1,8 @@
+@charset "utf-8";
+:root {
+	--Primary: #2a5083;
+	--Dark: #224069;
+}	
 @font-face {
     font-family: 'quantifyregular';
     src: url('../font/quantify/quantify-webfont.woff2') format('woff2'),
@@ -22,7 +27,7 @@
    background: rgba(0,0,0,0.00);
 }
 .page-footer,.top-nav-collapse{
-	background-color:#87411F
+	background-color:var(--Primary);
 }
 .navbar-default {
   box-shadow: none !important;
@@ -155,4 +160,8 @@ background: #707070;
 
 .subtitle {
 	padding-bottom: 30px;
+}
+
+#submit-btn {
+	background: var(--Dark); !important;
 }
