@@ -11,7 +11,7 @@
 $email = $_POST['email'];
 $message = $_POST['message'];
 $subject = $_POST['subject'];
-$formcontent="Nieuw bericht van: $name \n Message: $message";
+$formcontent="Nieuw bericht van: $name \n Bericht: $message";
 $recipient1 = "info@fancammo.com";
 $recipient2 = $email;
 $mailheader = "From: $email \r\n";

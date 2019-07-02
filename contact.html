@@ -105,18 +105,18 @@
 <form class="text-center border border-light p-5" action="mail.php" method="POST">
 
     <!-- Name -->
-    <input type="text" id="Name" class="form-control mb-4" placeholder="Naam" name="name">
+    <input type="text" id="Name" class="form-control mb-4" placeholder="Voor- en Achternaam" name="name">
 
     <!-- Email -->
-    <input type="email" id="Email" class="form-control mb-4" placeholder="E-mail" name="email">
+    <input type="email" id="Email" class="form-control mb-4" placeholder="E-mailadres" name="email">
 
     <!-- Subject -->
     <label>Onderwerp</label>
     <select class="browser-default custom-select mb-4" name="subject">
-        <option value="1" selected>Feedback</option>
-        <option value="2">Video niet ontvangen</option>
-        <option value="3">Suggestie</option>
-        <option value="4">Andere vraag</option>
+        <option value="Onderwerp: Feedback" selected>Feedback</option>
+        <option value="Onderwerp: Video niet ontvangen">Video niet ontvangen</option>
+        <option value="Onderwerp: Suggestie">Suggestie</option>
+        <option value="Onderwerp: Anders">Anders</option>
     </select>
 
     <!-- Message -->
